@@ -191,7 +191,7 @@ function draw() {
 
   stories ? storyBar() : null;
   categories();
-  myGallery();
+//   myGallery();
   chooseRando ? chooseRandomObj() : null;
 }
 
