@@ -136,7 +136,7 @@ function setup() {
 }
 
 function initiate() {  
-  cnv = createCanvas(displayWidth, displayHeight);
+  cnv = createCanvas(1920, 1080);
   background(0);
   textFont(font);
   imageMode(CENTER);
