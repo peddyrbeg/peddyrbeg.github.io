@@ -195,6 +195,11 @@ function draw() {
   chooseRando ? chooseRandomObj() : null;
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  initiate();
+}
+
 function drawBox() {
   boxAlphaSw ? null : boxAlpha = 0;
   boxAlphaSw = true;
