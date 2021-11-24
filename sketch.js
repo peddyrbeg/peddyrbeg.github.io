@@ -449,7 +449,3 @@ function buttonColourOver () {
 function buttonColourOut () {
   this.style('background-color', colT);
 }
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
