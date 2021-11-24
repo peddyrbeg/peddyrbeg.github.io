@@ -195,10 +195,6 @@ function draw() {
   chooseRando ? chooseRandomObj() : null;
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function drawBox() {
   boxAlphaSw ? null : boxAlpha = 0;
   boxAlphaSw = true;
@@ -452,4 +448,8 @@ function buttonColourOver () {
 
 function buttonColourOut () {
   this.style('background-color', colT);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
